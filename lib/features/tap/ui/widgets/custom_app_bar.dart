@@ -8,12 +8,14 @@ class CustomAppBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final r = currentColor.red;
-    final g = currentColor.green;
-    final b = currentColor.blue;
-    final hex =
-        '#${currentColor.value.toRadixString(16).substring(2).toUpperCase()}';
+    final r = (currentColor.r * 255).round();
+    final g = (currentColor.g * 255).round();
+    final b = (currentColor.b * 255).round();
 
+    // New way - hex string
+    final hex =
+        '#${r.toRadixString(16).padLeft(2, '0')}${g.toRadixString(16).padLeft(2, '0')}${b.toRadixString(16).padLeft(2, '0')}'
+            .toUpperCase();
     return Container(
       height: 64,
       decoration: BoxDecoration(
