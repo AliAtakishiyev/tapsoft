@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            CustomAppBar(),
+            CustomAppBar(currentColor: currentColor!),
             Expanded(
               child: GestureDetector(
                 behavior: HitTestBehavior.opaque,
