@@ -1,16 +1,4 @@
-# tapsoft
+# Tapsoft
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="322" height="699" alt="Simulator Screenshot - iPhone 16 Plus - 2026-03-11 at 16 45 44" src="https://github.com/user-attachments/assets/6f7b9c79-c916-4596-a9fa-751149d78277" />
