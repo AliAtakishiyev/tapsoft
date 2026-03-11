@@ -9,11 +9,21 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Column(
-            children: [
-              CustomAppBar()
-            ],
-        )
+          children: [
+            CustomAppBar(),
+            Expanded(
+              child: GestureDetector(
+                onTap: () {
+                  
+                },
+                child: Center(
+                  child: Text("Hello World"),
+                ),
+              ),
+            ),
+          ],
         ),
+      ),
     );
   }
 }
