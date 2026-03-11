@@ -34,7 +34,19 @@ class CustomAppBar extends StatelessWidget {
                 IconButton(
                   onPressed: () {
                     Clipboard.setData(ClipboardData(text: hex));
-                    
+
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(
+                          "Copied to clipboard!",
+                          style: TextStyle(color: Colors.black),
+                        ),
+                        backgroundColor: Colors.white,
+                        duration: Duration(
+                          seconds: 1,
+                        ), // How long the SnackBar shows
+                      ),
+                    );
                   },
                   icon: Icon(Icons.copy),
                 ),
