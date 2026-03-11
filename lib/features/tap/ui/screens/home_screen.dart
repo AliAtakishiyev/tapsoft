@@ -7,6 +7,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.from(alpha: 255, red: 255, green: 255, blue: 255),
       body: SafeArea(
         child: Column(
           children: [
@@ -17,7 +18,7 @@ class HomeScreen extends StatelessWidget {
                   
                 },
                 child: Center(
-                  child: Text("Hello World"),
+                  child: Text("Hello there"),
                 ),
               ),
             ),
